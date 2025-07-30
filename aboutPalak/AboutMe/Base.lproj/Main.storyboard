@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BDb-2A-Fip">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2fR-dq-WG8">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="0.86078912019999998" green="0.63740043748309672" blue="0.58384937282099925" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">My name is Palak Sood. I am a sincere and enthusiastic person who loves learning and trying new things. I believe in staying positive and working hard towards my goals. Currently, I am focused on my studies and personal development, aiming to build a successful and meaningful life. I try to stay organized, responsible, and always ready to help others whenever I can. I value honesty, respect, and kindness, and try to live by these values every day.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.86078912019999998" green="0.62707360907380594" blue="0.56675609433091811" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2fR-dq-WG8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8n7-eZ-Sww"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2fR-dq-WG8" secondAttribute="trailing" id="Qpr-Yf-7dQ"/>
+                            <constraint firstItem="2fR-dq-WG8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wjh-fD-dLC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2fR-dq-WG8" secondAttribute="bottom" constant="20" id="zrC-Bf-bIe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="bio" image="graduationcap.fill" catalog="system" id="TaO-3c-Agl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-668" y="811"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="jlQ-SE-83r">
+            <objects>
+                <viewController id="IFc-MW-NWF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xZA-9p-rn5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-kz-rMK">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="1" green="0.7719281389" blue="0.77407431260000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">I have many hobbies that keep me happy and help me relax. I enjoy reading books, especially fiction and motivational ones, as they allow me to learn new ideas and escape into different worlds. I also love listening to music—it helps me calm down and boosts my mood. In my free time, I like drawing, writing small poems or thoughts, and doing creative activities like crafts. Sometimes, I also enjoy exploring new apps, learning tech-related things, and spending time with friends, which brings a lot of joy to my life.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xVZ-ys-Ahe"/>
+                        <color key="backgroundColor" red="1" green="0.77192813890880541" blue="0.77407431264428173" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="kDN-kz-rMK" firstAttribute="leading" secondItem="xVZ-ys-Ahe" secondAttribute="leading" id="JCy-gH-z38"/>
+                            <constraint firstItem="kDN-kz-rMK" firstAttribute="top" secondItem="xVZ-ys-Ahe" secondAttribute="top" id="KQ5-uz-9vd"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="bottom" secondItem="kDN-kz-rMK" secondAttribute="bottom" constant="20" id="vcq-r9-Wis"/>
+                            <constraint firstItem="xVZ-ys-Ahe" firstAttribute="trailing" secondItem="kDN-kz-rMK" secondAttribute="trailing" id="w6K-hp-Rde"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.2.fill" catalog="system" id="I7R-FE-70g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uhX-Gu-g1u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="811"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="OOa-2w-wtQ">
+            <objects>
+                <viewController id="a5u-R9-6ue" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lMw-Em-8Qt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1cc-RP-kxH">
+                                <rect key="frame" x="0.0" y="118" width="393" height="597"/>
+                                <color key="backgroundColor" red="1" green="0.566500642054512" blue="0.6285680715901002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">I am blessed with a loving and supportive family. We are very close to each other and always stand together through every situation. My parents are my biggest inspiration—they guide me with their wisdom and always encourage me to do my best. I also have siblings with whom I share a strong bond. We have fun together, support each other, and share many beautiful memories. My family has taught me the values of love, trust, discipline, and togetherness, which I truly cherish.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KkR-fN-cN9"/>
+                        <color key="backgroundColor" red="1" green="0.55029020831431086" blue="0.61751664708490994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="bottom" secondItem="1cc-RP-kxH" secondAttribute="bottom" constant="20" id="5fl-SO-kXF"/>
+                            <constraint firstItem="1cc-RP-kxH" firstAttribute="leading" secondItem="KkR-fN-cN9" secondAttribute="leading" id="IgC-Jo-NG7"/>
+                            <constraint firstItem="KkR-fN-cN9" firstAttribute="trailing" secondItem="1cc-RP-kxH" secondAttribute="trailing" id="PQo-Mk-RWT"/>
+                            <constraint firstItem="1cc-RP-kxH" firstAttribute="top" secondItem="KkR-fN-cN9" secondAttribute="top" id="lPz-eR-Xty"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.indoor.soccer" catalog="system" id="7Ay-zy-wKr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qiZ-QX-mBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="811"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0cD-up-iZe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BDb-2A-Fip" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6vU-Sb-RdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="vH7-Am-fhX"/>
+                        <segue destination="IFc-MW-NWF" kind="relationship" relationship="viewControllers" id="GK0-ln-rk3"/>
+                        <segue destination="a5u-R9-6ue" kind="relationship" relationship="viewControllers" id="6PX-SO-MF6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jMm-YI-gPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="figure.indoor.soccer" catalog="system" width="126" height="128"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="person.2.fill" catalog="system" width="128" height="86"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
