@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PersonalityQuiz
+//  personalityquiz
 //
-//  Created by Student on 01/08/25.
+//  Created by Student on 30/07/25.
 //
 
 import UIKit

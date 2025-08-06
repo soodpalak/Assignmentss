@@ -1,13 +1,13 @@
 //
-//  PersonalityQuizUITestsLaunchTests.swift
-//  PersonalityQuizUITests
+//  personalityquizUITestsLaunchTests.swift
+//  personalityquizUITests
 //
-//  Created by Student on 01/08/25.
+//  Created by Student on 30/07/25.
 //
 
 import XCTest
 
-final class PersonalityQuizUITestsLaunchTests: XCTestCase {
+final class personalityquizUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

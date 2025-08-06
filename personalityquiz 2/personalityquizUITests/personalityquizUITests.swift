@@ -1,13 +1,13 @@
 //
-//  PersonalityQuizUITests.swift
-//  PersonalityQuizUITests
+//  personalityquizUITests.swift
+//  personalityquizUITests
 //
-//  Created by Student on 01/08/25.
+//  Created by Student on 30/07/25.
 //
 
 import XCTest
 
-final class PersonalityQuizUITests: XCTestCase {
+final class personalityquizUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,14 +1,14 @@
 //
-//  PersonalityQuizTests.swift
-//  PersonalityQuizTests
+//  personalityquizTests.swift
+//  personalityquizTests
 //
-//  Created by Student on 01/08/25.
+//  Created by Student on 30/07/25.
 //
 
 import Testing
-@testable import PersonalityQuiz
+@testable import personalityquiz
 
-struct PersonalityQuizTests {
+struct personalityquizTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
